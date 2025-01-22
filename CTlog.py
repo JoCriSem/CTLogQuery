@@ -1,3 +1,8 @@
+#This script queries the crt.sh API to retrieve certificate transparency logs for a list of domains. 
+#The results include details about certificates, such as the issuer, common name (CN), subject alternative names (SAN), 
+#and validity periods. It also identifies where the domain was found in the certificate (CN, SAN, or both).
+
+
 import requests
 import json
 import csv
